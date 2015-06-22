@@ -1,0 +1,79 @@
+(.../stephan/eagle/ulp/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../eagle/microgame/micro_game.brd)
+(Current profile is .../stephan/eagle/ulp/profiles/mach.pp  )
+(This file generated 17.06.15 19:20)
+(Settings from pcb-machine.h)
+(spindle on time = 3.0000)
+(spindle speed = 20000.0000)
+(tool change at 0.0000  0.0000  25.4000 )
+(feed rate xy = F0     )
+(feed rate z  = F508   )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(20.0000 	8.0000  	-0.1778 	-0.8128 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0254)
+(isolate max = 0.5080)
+(isolate step = 0.1270)
+(Generated top outlines, top drill, bottom outlines, bottom drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01 | 1.100mm 0.0433in | 0.0000in | 0.0000in |       0 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+S20000
+G00 Z20.0000 
+G00 X0.0000  Y0.0000  
+M03
+G04 P3.000000
+M05
+G00 Z25.4000 
+M06 T01  ; 1.1000  
+G01 Z0.0000  F508   
+M06 
+G00 Z8.0000  
+M03
+G04 P3.000000
+G82 X49.8800 Y37.0300 Z-0.8128 F508   R8.0000  P1.000000
+G82 X49.8800 Y39.5700 
+G82 X49.8800 Y42.1100 
+G82 X49.8800 Y44.6500 
+G82 X49.8800 Y47.1900 
+G82 X49.8800 Y49.7300 
+G82 X49.8800 Y52.2700 
+G82 X49.8800 Y54.8100 
+G82 X49.8800 Y57.3500 
+G82 X49.8800 Y59.8900 
+G82 X49.8800 Y62.4300 
+G82 X49.8800 Y64.9700 
+G82 X49.8800 Y67.5100 
+G82 X49.8800 Y70.0500 
+G82 X49.8800 Y72.5900 
+G82 X49.8800 Y75.1300 
+G82 X49.8800 Y77.6700 
+G82 X65.1200 Y77.6700 
+G82 X65.1200 Y75.1300 
+G82 X65.1200 Y72.5900 
+G82 X65.1200 Y70.0500 
+G82 X65.1200 Y67.5100 
+G82 X65.1200 Y64.9700 
+G82 X65.1200 Y62.4300 
+G82 X65.1200 Y59.8900 
+G82 X65.1200 Y57.3500 
+G82 X65.1200 Y54.8100 
+G82 X65.1200 Y52.2700 
+G82 X65.1200 Y49.7300 
+G82 X65.1200 Y47.1900 
+G82 X65.1200 Y44.6500 
+G82 X65.1200 Y42.1100 
+G82 X65.1200 Y39.5700 
+G82 X65.1200 Y37.0300 
+T01 
+G00 Z20.0000 
+M05
+M02
