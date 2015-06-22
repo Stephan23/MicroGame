@@ -8,11 +8,9 @@ In this repository you find the firmware and hardware design for the
 Snake
 -----
 
-<img src="pictures/snake_gedit.png" alt="Snake">
+<img src="pictures/snake_gedit.gif" alt="Snake">
 
-'0' -> Snake
-'X' -> Targel
-'O' -> Border
+'0' -> Snake, 'X' -> Targel, 'O' -> Border
 
 Tetris
 ------
